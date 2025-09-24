@@ -1,0 +1,57 @@
+/* Mobile container fills screen */
+.layout-mobile {
+  display: flex;
+  justify-content: center;  /* horizontal centering */
+  align-items: center;      /* vertical centering */
+  height: 100vh;            /* full viewport height */
+  width: 100vw;             /* full viewport width */
+  margin: 0;                /* remove default margins */
+  padding: 0;               /* remove default padding */
+  box-sizing: border-box;   /* include padding/border in size calculations */
+  background-color: #4f758d;
+}
+
+
+.mobile-box {
+  width: 95%;
+  max-width: 480px;
+  height: 90vh;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+
+.profile-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.profile-mobile img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.profile-mobile h1 {
+  font-size: 2rem;
+  margin: 0 0 12px 0;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: auto;
+}
