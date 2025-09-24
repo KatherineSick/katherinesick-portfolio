@@ -2,6 +2,14 @@ import React from 'react';
 
 const experienceData = [
   {
+    title: 'Graduate Assistant for Japanese Exchange Students',
+    company: 'College of Agriculture, University of Illinois',
+    dates: '08/2025',
+    location: 'Champaign, IL',
+    description: 'Assisted ACES college director with coordination and planning of Japanese student exchange program and supported communication between students and program leaders through translation and cross-cultural facilitation.',
+    tags: ['Communication', 'Coordination', 'Organization', 'Japanese Culture']
+  },
+  {
     title: 'Data Structures Teaching Assistant',
     company: 'Department of Computer Science, University of Illinois',
     dates: '08/2023 - 05/2025',

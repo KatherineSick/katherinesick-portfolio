@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePic from '../assets/profile-pic.jpg';
+import resume from '../assets/Katherine Sick Resume fa2025.pdf';
 
 export default function ProfileMobile() {
   return (
@@ -36,6 +37,18 @@ export default function ProfileMobile() {
             <path fill="#fff" d="M12 13.065L.75 5.25V18c0 1.1.9 2 2 2h18.5c1.1 0 2-.9 2-2V5.25L12 13.065zM12 11L23.25 3H.75L12 11z"/>
           </svg>
           <span className="sr-only">Email</span>
+        </a>
+        <a 
+          className="btn btn-pdf"
+          href={resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Resume"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+            <path fill="#fff" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm1 15h-6v-2h6v2zm0-4h-6v-2h6v2zm-2-5V3.5L18.5 9H13z" />
+          </svg>
+          <span className="sr-only">Resume</span>
         </a>
       </div>
     </aside>

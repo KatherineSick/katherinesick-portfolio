@@ -156,6 +156,7 @@ h1 {
 .btn-linkedin { background: #0a66c2; }
 .btn-github { background: #333; }
 .btn-email { background: #6c757d; }
+.btn-resume { background: #220847; }
 .btn:hover { opacity: 0.9; }
 .btn svg { display: block; margin: 0; width: 20px; height: 20px; }
 .btn span { vertical-align: middle; }
@@ -358,3 +359,5 @@ h1 {
   animation: panel-enter 1s cubic-bezier(.2,.9,.3,1) both;
 }
 
+
+.btn-resume { background: rgba(51, 87, 204, 0.667); color: #fff; }
