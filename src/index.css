@@ -39,11 +39,12 @@ h1 {
   color: rgb(43, 43, 44)
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0;
-  padding: 1rem 56px;
-  text-align: center;
+@media (min-width: 901px) {
+  #app {
+    max-width: 1280px;
+    padding: 1rem 56px;
+    text-align: center;
+  }
 }
 
 .read-the-docs {

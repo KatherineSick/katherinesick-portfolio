@@ -6,16 +6,17 @@
   height: 100vh;            /* full viewport height */
   width: 100vw;             /* full viewport width */
   margin: 0;                /* remove default margins */
-  padding: 0;               /* remove default padding */
+  padding: 0;       
+  overflow: hidden;        /* remove default padding */
   box-sizing: border-box;   /* include padding/border in size calculations */
   background-color: #4f758d;
 }
 
 
 .mobile-box {
-  width: 95%;
+  width: 80%;
   max-width: 480px;
-  height: 90vh;
+  height: 85vh;
   padding: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 12px;

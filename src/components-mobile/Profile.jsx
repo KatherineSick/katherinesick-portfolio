@@ -4,8 +4,8 @@ import profilePic from '../assets/profile-pic.jpg';
 export default function ProfileMobile() {
   return (
     <aside className="profile-mobile">
-      <img src={profilePic} alt="Profile" />
-      <h1>Katherine Sick</h1>
+      <img className='profile-pic' src={profilePic} alt="Profile" />
+      <h1 className='profile-name'>Katherine Sick</h1>
       <div className="profile-actions">
         <a
           className="btn btn-linkedin"
