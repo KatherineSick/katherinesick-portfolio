@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ProjectsMobile from './Projects';
-// import Education from './Education';
+import Education from './Education';
 // import Experience from './Experience';
 
 export default function Tabs() {
@@ -23,14 +23,14 @@ export default function Tabs() {
           flexWrap: 'wrap'
         }}>
           <button className="tab" aria-selected={selectedTab === 'projects'} onClick={() => setSelectedTab('projects')}>Projects</button>
-          {/* <button className="tab" aria-selected={selectedTab === 'education'} onClick={() => setSelectedTab('education')}>Education</button>
-          <button className="tab" aria-selected={selectedTab === 'experience'} onClick={() => setSelectedTab('experience')}>Experience</button> */}
+          <button className="tab" aria-selected={selectedTab === 'education'} onClick={() => setSelectedTab('education')}>Education</button>
+          {/* <button className="tab" aria-selected={selectedTab === 'experience'} onClick={() => setSelectedTab('experience')}>Experience</button> */}
         </div>
 
         <div className="tabpanels-mobile" style={{ textAlign: 'left' }}>
           {selectedTab === 'projects' && <ProjectsMobile />}
-          {/* {selectedTab === 'education' && <Education />}
-          {selectedTab === 'experience' && <Experience />} */}
+          {selectedTab === 'education' && <Education />}
+          {/* {selectedTab === 'experience' && <Experience />} */}
         </div>
       </div>
     </div>
