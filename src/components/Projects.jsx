@@ -1,4 +1,8 @@
 import React from 'react';
+import ling1 from '../assets/LING_413_Project_1.pdf';
+import ling2 from '../assets/LING_413_Project_2.pdf';
+import ling3 from '../assets/LING_413_Project_3.pdf';
+import fling from '../assets/LING_413_Final_Project.pdf';
 
 const projectsData = [
   {
@@ -6,7 +10,7 @@ const projectsData = [
     tags: ['React', 'JavaScript', 'CSS'],
     date: '09/2025 - Present',
     description: 'Created a personal portfolio website to showcase projects and previous work (This website!). To build this app I used a React framework and CSS/JavaScript to code and implement the design.',
-    repoUrl: 'https://github.com/KatherineSick/Personal-Website.git'
+    repoUrl: 'https://github.com/KatherineSick/katherinesick-portfolio.git'
   },
   {
     title: 'Classify',
@@ -36,25 +40,25 @@ const papersData = [
     title: 'Embedding Analysis of Gendered Language using BERT',
     date: '05/2025',
     description: 'This study investigates the presence and impact of gendered language in job advertisements using contextual word embeddings derived from BERT. We quantify the gender bias in job descriptions by comparing extracted keywords to prototypical male and female embedding centroids.',
-    pdfUrl: '/papers/genderedlang.pdf'
+    pdfUrl: fling
   },
   {
     title: 'Comparing Word Embeddings of Spam and Non-Spam Emails',
     date: '04/2025',
     description: 'This paper follows the development of a semi-supervised experiment that uses Word2Vec models on different classes of a spam and non-spam email corpus. This allows us to compare word embeddings across different registers, and analyze the neighborhoods of certain words in each.',
-    pdfUrl: '/papers/spam.pdf'
+    pdfUrl: ling3
   },
   {
     title: 'Analyzing Topics of Tweets and their Significance Over Time',
     date: '03/2025',
     description: 'This paper follows the development of an unsupervised model that applies Latent Dirichlet Allocation (LDA) to cluster and analyze topics from a sample of the Sentiment140 Twitter corpus.',
-    pdfUrl: '/papers/twittersent.pdf'
+    pdfUrl: ling2
   },
   {
     title: 'Training Models for Part-of-Speech Tagging',
     date: '03/2025',
     description: 'This study follows the development of part-of-speech tagging classifiers. For this study we train a bi-directional LSTM model and a Naive Bayes model in order to correctly identify the part of speech of each word in a sentence.',
-    pdfUrl: '/papers/postag-paper.pdf'
+    pdfUrl: ling1
   }
 ];
 
