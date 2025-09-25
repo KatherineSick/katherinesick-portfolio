@@ -29,7 +29,7 @@ const experienceData = [
 ];
 
 const Experience = () => {
-  usePageView("/desktop");
+  usePageView("/experience-desktop");
   return (
     <div className="tabs">
       <h2>Experience</h2>

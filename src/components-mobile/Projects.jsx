@@ -65,7 +65,7 @@ const papersData = [
 ];
 
 export default function ProjectsMobile() {
-  usePageView("/desktop");
+  usePageView("/projects-mobile");
   return (
     <div className="projects-mobile">
       <h2 className="mobile-heading">Project Highlights</h2>

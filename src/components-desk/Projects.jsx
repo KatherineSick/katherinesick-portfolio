@@ -64,7 +64,7 @@ const papersData = [
 ];
 
 const Projects = () => {
-  usePageView("/desktop");
+  usePageView("/projects-desktop");
   return (
     <div className="tabs">
       <h2>Project Highlights</h2>

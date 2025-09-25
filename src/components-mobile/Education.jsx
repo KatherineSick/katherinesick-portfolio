@@ -42,7 +42,7 @@ const educationData = [
 ];
 
 export default function EducationMobile() {
-  usePageView("/desktop");
+  usePageView("/education-mobile");
   return (
     <div className="projects-mobile">
       <h2 className="mobile-heading">Education</h2>

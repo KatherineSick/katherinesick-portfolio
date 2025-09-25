@@ -42,7 +42,7 @@ const educationData = [
 ];
 
 const Education = () => {
-  usePageView("/desktop");
+  usePageView("/education-desktop");
   return (
     <div className="tabs">
       <h2>Education</h2>

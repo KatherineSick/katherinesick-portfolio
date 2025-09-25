@@ -9,7 +9,7 @@ import FloatingCarousel from './FloatingCarousel';
 import usePageView from '../hooks/trackPage';
 
 const About = () => {
-  usePageView("/desktop");
+  usePageView("/about-desktop");
   const carousel1 = [
     { src: grad, alt: 'graduation pic', caption: 'Graduation picture near (one of) my college(s) sign!' },
     { src: lol, alt: 'me at a league of linguistics event', caption: 'League of Linguists (my RSO) Valentine\'s day event' },

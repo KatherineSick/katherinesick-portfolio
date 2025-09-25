@@ -4,7 +4,7 @@ import './index-mob.css';
 import usePageView from './hooks/trackPage';
 
 export default function MobileLayout() {
-  usePageView("/desktop");
+  usePageView("/mobile");
   const scrollToTabs = () => {
     const tabs = document.getElementById('tabs-section');
     if (tabs) {

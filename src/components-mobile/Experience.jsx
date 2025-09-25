@@ -29,7 +29,7 @@ const experienceData = [
 ];
 
 export default function Experience() {
-  usePageView("/desktop");
+  usePageView("/experience-mobile");
   return (
     <div className="projects-mobile">
       <h2 className="mobile-heading">Experience</h2>
