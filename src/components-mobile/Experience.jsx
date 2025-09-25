@@ -1,5 +1,5 @@
 import React from 'react';
-import usePageView from './hooks/trackPage';
+import usePageView from '../hooks/trackPage';
 
 const experienceData = [
   {

@@ -6,7 +6,7 @@ import fuku from '../assets/fuku.png';
 import nick from '../assets/nick.png';
 import shozo from '../assets/shozo.png';
 import FloatingCarousel from './FloatingCarousel';
-import usePageView from './hooks/trackPage';
+import usePageView from '../hooks/trackPage';
 
 const About = () => {
   usePageView("/desktop");

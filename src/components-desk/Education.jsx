@@ -1,7 +1,7 @@
 import React from 'react';
 import illini from '../assets/illini.png';
 import keio from '../assets/keio.png';
-import usePageView from './hooks/trackPage';
+import usePageView from '../hooks/trackPage';
 
 const educationData = [
   {

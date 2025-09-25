@@ -3,7 +3,7 @@ import ling1 from '../assets/LING_413_Project_1.pdf';
 import ling2 from '../assets/LING_413_Project_2.pdf';
 import ling3 from '../assets/LING_413_Project_3.pdf';
 import fling from '../assets/LING_413_Final_Project.pdf';
-import usePageView from './hooks/trackPage';
+import usePageView from '../hooks/trackPage';
 
 
 const projectsData = [
