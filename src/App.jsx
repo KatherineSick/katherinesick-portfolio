@@ -8,6 +8,7 @@ export default function App() {
   const isMobile = useIsMobile(900);
 
   useEffect(() => {
+    initGA();
     trackPage(window.location.pathname);
   }, []);
 
