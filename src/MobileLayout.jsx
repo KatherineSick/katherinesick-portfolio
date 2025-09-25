@@ -1,8 +1,10 @@
 import ProfileMobile from './components-mobile/Profile';
 import Tabs from './components-mobile/Tabs';
 import './index-mob.css';
+import usePageView from './hooks/trackPage';
 
 export default function MobileLayout() {
+  usePageView("/desktop");
   const scrollToTabs = () => {
     const tabs = document.getElementById('tabs-section');
     if (tabs) {

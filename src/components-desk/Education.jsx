@@ -1,6 +1,7 @@
 import React from 'react';
 import illini from '../assets/illini.png';
 import keio from '../assets/keio.png';
+import usePageView from './hooks/trackPage';
 
 const educationData = [
   {
@@ -41,6 +42,7 @@ const educationData = [
 ];
 
 const Education = () => {
+  usePageView("/desktop");
   return (
     <div className="tabs">
       <h2>Education</h2>

@@ -1,4 +1,5 @@
 import React from 'react';
+import usePageView from './hooks/trackPage';
 
 const experienceData = [
   {
@@ -28,6 +29,7 @@ const experienceData = [
 ];
 
 export default function Experience() {
+  usePageView("/desktop");
   return (
     <div className="projects-mobile">
       <h2 className="mobile-heading">Experience</h2>

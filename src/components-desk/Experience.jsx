@@ -1,4 +1,5 @@
 import React from 'react';
+import usePageView from './hooks/trackPage';
 
 const experienceData = [
   {
@@ -28,6 +29,7 @@ const experienceData = [
 ];
 
 const Experience = () => {
+  usePageView("/desktop");
   return (
     <div className="tabs">
       <h2>Experience</h2>
