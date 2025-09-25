@@ -1,12 +1,22 @@
 import React from 'react';
 import grad from '../assets/grad.jpg';
 import lol from '../assets/lol.png';
+import cook from '../assets/cook.png';
+import fuku from '../assets/fuku.png';
+import nick from '../assets/nick.png';
+import shozo from '../assets/shozo.png';
 import FloatingCarousel from './FloatingCarousel';
 
 const About = () => {
   const carousel1 = [
     { src: grad, alt: 'graduation pic', caption: 'Graduation picture near (one of) my college(s) sign!' },
-    { src: lol, alt: 'me at a league of linguistics event', caption: 'League of Linguists (my RSO) Valentine\'s day event!' },
+    { src: lol, alt: 'me at a league of linguistics event', caption: 'League of Linguists (my RSO) Valentine\'s day event' },
+  ];
+  const carousel2 = [
+    { src: shozo, alt: 'shozo calligraphy', caption: 'Learning about calligraphy and textiles from Japan House\'s founder, Shozo Sato.' },
+    { src: cook, alt: 'cooking at japan house', caption: 'Preparing food for a Japan House event with Japan House staff and interns' },
+    { src: nick, alt: 'me with nick offerman', caption: 'Working with Nick Offerman at a Japan House fundraising event!' },
+    { src: fuku, alt: 'fukushima artists', caption: 'Posing with visiting Fukushima ambassadors/artists ' },
   ];
   return (
     <div className="about-section">
@@ -27,10 +37,16 @@ const About = () => {
         and user-centered design. I've worked on a few research papers, many machine projects, and have experience being
         a teaching assistant for undergraduate computer science courses.
       </p>
+      <FloatingCarousel images={carousel2} float="left" maxWidth={250} interval={8000} />
       <p>
-        Outside of tech, I am very interested in language learning and, more specifically, the Japanese language
+        Outside of tech, I am very interested in language learning and, more specifically, Japanese language
         and culture. I have studied Japanese for about 8 years and during my undergraduate studies I had the wonderful opportunity to work with 
-        Japan House here at UIUC.
+        Japan House here at UIUC. I loved working at Japan House, and I was able to experience and learn so many things 
+        I know I couldn't have elsewhere. 
+      </p>
+      <p>
+        During my Junior year of undergrad, I was also able to study abroad in Tokyo, Japan for half a year
+        at Keio University. This experience allowed me to learn so much about other cultures and perspectives, not just Japanese culture.
       </p>
     </div>
   );

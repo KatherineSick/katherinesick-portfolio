@@ -361,36 +361,6 @@ h1 {
 
 .btn-resume { background: rgba(51, 87, 204, 0.667); color: #fff; }
 
-.grad-figure {
-  float: right;
-  margin-left: 20px;
-  margin-bottom: 12px;
-  max-width: 300px;
-  text-align: center;
-}
-
-.about-section .grad-pic {
-  display: block;
-  max-width: 270px;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  margin: 0 auto 0.5rem auto;
-  object-fit: cover;
-}
-.grad-pic {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-.grad-caption {
-  font-size: 0.9rem;
-  color: #dcdcdc;
-  margin-top: 1px;
-}
-
 .about-section::after {
   content: "";
   display: table;
@@ -398,7 +368,7 @@ h1 {
 }
 
 .floating-carousel {
-  margin: 0px 20px 10px 20px;
+  margin: 0px 25px 10px 20px;
   text-align: center;
   position: relative;
 }
