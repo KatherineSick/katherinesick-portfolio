@@ -5,7 +5,7 @@ import Experience from './Experience';
 import About from './About';
 
 export default function Tabs() {
-  const [selectedTab, setSelectedTab] = useState('projects');
+  const [selectedTab, setSelectedTab] = useState('about');
 
   return (
     <div id="tabs-section">
@@ -20,10 +20,11 @@ export default function Tabs() {
         <div className="tablist-mobile" style={{
           display: 'flex',
           justifyContent: 'space-around',
-          marginBottom: '12px',
+          marginBottom: '0px',
           marginRight: '8px',
           paddingTop: '12px',
-          flexWrap: 'wrap'
+          flexWrap: 'wrap',
+          gap: '12px'
         }}>
           <button className="tab" aria-selected={selectedTab === 'about'} onClick={() => setSelectedTab('about')}>About</button>
           <button className="tab" aria-selected={selectedTab === 'projects'} onClick={() => setSelectedTab('projects')}>Projects</button>

@@ -37,7 +37,8 @@ const About = () => {
       <p>
         However, I also enjoy web development, software engineering,
         and user-centered design. I've worked on a few research papers, many machine projects, and have experience being
-        a teaching assistant for undergraduate computer science courses.
+        a teaching assistant for undergraduate computer science courses. I'm a fast learner, and once I get hooked on something
+        I tend to dive in headfirst and learn as much as I can about it.
       </p>
       <FloatingCarousel images={carousel2} float="left" maxWidth={250} interval={8000} />
       <p>
@@ -49,6 +50,8 @@ const About = () => {
       <p>
         During my Junior year of undergrad, I was also able to study abroad in Tokyo, Japan for half a year
         at Keio University. This experience allowed me to learn so much about other cultures and perspectives, not just Japanese culture.
+        I believe having these experiences really gave me a chance to come at problems with different ideas,
+        and ways to collaborate with others. 
       </p>
     </div>
   );
