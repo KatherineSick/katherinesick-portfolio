@@ -22,6 +22,13 @@ const projectsData = [
     repoUrl: 'https://github.com/KatherineSick/classify.git'
   },
   {
+    title: 'UIUC Thrifting App',
+    tags: ['React', 'SQL', 'JavaScript', 'HTML/CSS'],
+    date: '9/2024 - 12/2024',
+    description: 'We programmed a community thrifting application that allows current students of University of Illinois to sell and purchase items with other students. This application provides a centralized location for both sellers and buyers to post and look for items that they have and need.',
+    repoUrl: 'https://github.com/KatherineSick/UIUC-Thrifting-App-CS411.git'
+  },
+  {
     title: 'Natural Disaster Risk Calculator',
     tags: ['React', 'JavaScript', 'APIs'],
     date: '02/2023',
