@@ -48,10 +48,10 @@ const About = () => {
         I know I couldn't have elsewhere. 
       </p>
       <p>
-        Outside of tech, I am very interested in language learning and, more specifically, Japanese language
-        and culture. I have studied Japanese for about 8 years and during my undergraduate studies I had the wonderful opportunity to work with 
-        Japan House here at UIUC. I loved working at Japan House, and I was able to experience and learn so many things 
-        I know I couldn't have elsewhere. 
+        During my Junior year of undergrad, I was also able to study abroad in Tokyo, Japan for half a year
+        at Keio University. This experience allowed me to learn so much about other cultures and perspectives, not just Japanese culture.
+        I believe having these experiences really gave me a chance to come at problems with different ideas,
+        and ways to collaborate with others. 
       </p>
     </div>
   );
