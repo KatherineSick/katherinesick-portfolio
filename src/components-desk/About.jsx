@@ -25,13 +25,13 @@ const About = () => {
       <h2>About Me</h2>
       <p>
         Hello! I'm Katy Sick, a passionate software developer and graduate student 
-        at the University of Illinois at Urbana-Champaign, pursuing a Master of Computer Science.
+        at the University of Illinois at Urbana-Champaign, pursuing a Master of Computer Science. 
       </p>
       <FloatingCarousel images={carousel1} float="right" maxWidth={250} interval={8000} />
       <p>
         While I am currently a computer science student, my undergraduate background is in both computer
         science and linguistics, which gives me a unique perspective on language technologies and human-computer interaction.
-        Because of this my interests are more geared towards machine learning, natural language processing, and programming
+        Because of this, my interests are more geared towards machine learning, natural language processing, and programming
         that allows me to work with language. 
       </p>
       <p>
@@ -48,10 +48,10 @@ const About = () => {
         I know I couldn't have elsewhere. 
       </p>
       <p>
-        During my Junior year of undergrad, I was also able to study abroad in Tokyo, Japan for half a year
-        at Keio University. This experience allowed me to learn so much about other cultures and perspectives, not just Japanese culture.
-        I believe having these experiences really gave me a chance to come at problems with different ideas,
-        and ways to collaborate with others. 
+        Other than studying Japanese, I spend much of my free time playing video games. 
+        My current favorite game is Final Fantasy IIV: Rebirth, but I also regularly enjoy Valorant, Teamfight Tactics, and Overwatch. 
+        These games have not only been a source of fun but have also inspired my interest in game design, AI, and user experience. 
+        In the future, I’m excited to apply my skills to projects that combine AI, games, and user-centered technologies, contributing to experiences that are both innovative and engaging for players.
       </p>
     </div>
   );
